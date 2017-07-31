@@ -1,0 +1,23 @@
+
+# Example for AWS EC2
+
+С1-SaltMinion-0001:
+  host: 10.1.1.11
+  user: centos
+  sudo: true
+  tty: false
+  priv: /etc/salt/pki/master/ssh/dev.key
+
+С2-SaltMinion-0002:
+  host: 10.1.1.12
+  user: centos
+  sudo: true
+  tty: false
+  priv: /etc/salt/pki/master/ssh/dev.key
+
+С2-SaltMinion-0003:
+  host: 10.1.1.13
+  user: centos
+  sudo: true
+  tty: false
+  priv: /etc/salt/pki/master/ssh/dev.key
