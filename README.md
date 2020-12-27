@@ -10,7 +10,6 @@ timeout: 300
 keep_jobs: 48
 max_open_files: 100000
 worker_threads: 10
-timeout: 10
 minion_data_cache: True
 order_masters: True
 show_timeout: True
